@@ -1,2 +1,0 @@
-
-kya hal chal
