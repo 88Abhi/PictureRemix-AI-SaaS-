@@ -25,11 +25,11 @@ const ImageSchema = new Schema({
   title: { type: String, required: true },
   transformationType: { type: String, required: true },
   publicId: { type: String, required: true },
-  secureURL: { type: String, required: true },
+  secureURL: { type: String, required: true },//URL
   width: { type: Number },
   height: { type: Number },
   config: { type: Object },
-  transformationUrl: { type: String },
+  transformationUrl: { type: String },//URL
   aspectRatio: { type: String },
   color: { type: String },
   prompt: { type: String },
